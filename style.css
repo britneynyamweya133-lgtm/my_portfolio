@@ -26,6 +26,31 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 50px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 60px 20px;
+}
+
 
 footer {
     background-color: #333;
